@@ -11,3 +11,16 @@
     ./node_modules/.bin/eslint --init
   (3)配置规则参考eslint配置规则
     http://eslint.cn/docs/rules/
+
+4、ios项目改为Cocoapods管理
+  （1）安装Cocoapods，（ruby环境）
+      $ sudo gem install cocoapods
+  （2）pod 初始化
+      $cd ios && pod init ## 生成Podfile
+      $ pod install ## 生成Podfile.lock
+      $ pod update  ## 更新pod库的版本
+
+      以后*.xcworkspace 代替 *.xcodeproj管理ios, 以后双击yahiiMobile.xcworkspace打开Xcode
+    注意⚠️：没有开发者账号，自行百度，将AppID注册成临时开发者账号
+
+5、
