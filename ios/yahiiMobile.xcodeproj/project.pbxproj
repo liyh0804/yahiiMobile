@@ -1247,6 +1247,7 @@
 			baseConfigurationReference = 29AA5745E0BD2295D1E3535E /* Pods-yahiiMobile.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
 				DEVELOPMENT_TEAM = 69QAQ2XX5C;
@@ -1267,6 +1268,7 @@
 			baseConfigurationReference = 7ABC59C9B2F14074003A6227 /* Pods-yahiiMobile.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 69QAQ2XX5C;
 				INFOPLIST_FILE = yahiiMobile/Info.plist;

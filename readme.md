@@ -23,4 +23,7 @@
       以后*.xcworkspace 代替 *.xcodeproj管理ios, 以后双击yahiiMobile.xcworkspace打开Xcode
     注意⚠️：没有开发者账号，自行百度，将AppID注册成临时开发者账号
 
-5、
+5、Xcode替换ios AppIcon和
+  准备一个1024*1024的图片，下载一个app icon自动生成对应的icon
+
+
