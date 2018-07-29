@@ -28,3 +28,14 @@
 
 6、dva-no-router + react-navigation 框架管理state等相关
   npm install dva-no-router dva-loading react-navigation
+
+7、react-native-camera
+  (1)安装配置
+    npm install --save react-native-camera
+    react-native link react-native-camera
+  (2) 配置访问权限
+    ios： Info.plist 配置照相机、相册、麦克风权限
+
+  注意： (1)Podfile下配置React、yoga，执行 pod update --verbose --no-repo-update
+        (2)找不到<React//RCTBridgeModule.h>, 
+        Xcode --> build settings--> Header Search Path下配置一下即可
