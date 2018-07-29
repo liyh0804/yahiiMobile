@@ -26,4 +26,5 @@
 5、Xcode替换ios AppIcon和
   准备一个1024*1024的图片，下载一个app icon自动生成对应的icon
 
-
+6、dva-no-router + react-navigation 框架管理state等相关
+  npm install dva-no-router dva-loading react-navigation
