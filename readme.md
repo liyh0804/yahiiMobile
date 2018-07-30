@@ -42,3 +42,19 @@
       
       (3) npm start报 Error: jest-haste-map: @providesModule naming       collision: Duplicate module name: react-native
           删除Pods文件夹，重新pod update 一下
+
+8、react-native-vector-icons
+  (1) npm i --save react-native-vector-icons
+      react-native link react-native-vector-icons
+  (2) www.iconfont.cn 下载iconfont.ttf
+  (3) 命令行安装fonttools【需要python环境】（pip install fonttools）
+  (4) reat-native-iconfont-mapper 克隆到本地，
+      自己修改confront-mapper.py使其生成json的文件，
+      执行python iconfont-mapper.py iconfont.ttf iconfont.json（iconfont.json就是图标和字符串的映射）
+（5）自行仿照react-native-vector-icons变细iconfont的代码如下：
+    import { createIconSet } from 'react-native-vector-icons';
+    import glyphMap from '../../files/iconfont.json';
+    const iconSet = createIconSet(glyphMap, 'iconfont', 'iconfont.ttf');
+    export default iconSet;	
+（6）ios Xcode将iconfont.ttf 加入 。 android 将iconfont.ttf 拷贝到      android/app/src/main/assets/fonts下，
+  重新安装对应的包，ok，就可以使用了

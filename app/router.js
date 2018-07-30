@@ -1,4 +1,6 @@
+import React from 'react';
 import { createStackNavigator, createBottomTabNavigator } from 'react-navigation';
+import Iconfont from './components/iconfont';
 import HomePage from './pages/home';
 import VideoPage from './pages/videos';
 import PlanPage from './pages/plans';
@@ -30,6 +32,24 @@ const BottomTabNav = createBottomTabNavigator({
   initialRouteName: 'Home',
   navigationOptions: ({ navigation }) => ({
     tabBarVisible: true,
+    tabBarIcon: ({ focused, tintColor }) => {
+      const { routeName } = navigation.state;
+      let iconName;
+      if (routeName === 'Home') {
+        iconName = 'home';
+      } else if (routeName === 'Videos') {
+        iconName = 'video';
+      } else if (routeName === 'Grown') {
+        iconName = 'grown';
+      } else if (routeName === 'Plans') {
+        iconName = 'plan';
+      } else if (routeName === 'Images') {
+        iconName = 'user';
+      }
+      // 在此处返回任何组件
+      // 通常使用react-native-vector-icons中的图标
+      return <Iconfont name={iconName} size={25} color={tintColor} />;
+    },
   }),
   tabBarOptions: {
     activeTintColor: 'blue',

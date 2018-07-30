@@ -28,6 +28,8 @@ target 'yahiiMobile' do
       'RCTWebSocket'
   ]
 
+  pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
+
   # target 'yahiiMobileTests' do
   #   inherit! :search_paths
   #   # Pods for testing
