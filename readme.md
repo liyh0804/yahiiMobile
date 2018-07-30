@@ -58,3 +58,7 @@
     export default iconSet;	
 （6）ios Xcode将iconfont.ttf 加入 。 android 将iconfont.ttf 拷贝到      android/app/src/main/assets/fonts下，
   重新安装对应的包，ok，就可以使用了
+
+9、react-native-linear-gradient
+  npm i --save react-native-linear-gradient
+  react-native link react-native-linear-gradient
