@@ -39,3 +39,6 @@
   注意： (1)Podfile下配置React、yoga，执行 pod update --verbose --no-repo-update
         (2)找不到<React//RCTBridgeModule.h>, 
         Xcode --> build settings--> Header Search Path下配置一下即可
+      
+      (3) npm start报 Error: jest-haste-map: @providesModule naming       collision: Duplicate module name: react-native
+          删除Pods文件夹，重新pod update 一下
