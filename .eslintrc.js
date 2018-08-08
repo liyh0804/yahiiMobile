@@ -42,6 +42,9 @@ module.exports = {
       "implicit-arrow-linebreak": 0,
       "no-underscore-dangle": 0,
       "no-unused-expressions": 0,
+      "class-methods-use-this": 0,
+      "operator-linebreak": 0,
+      "prefer-template": 0,
 
       "no-unused-vars": 1,
       "block-scoped-var": 2,
@@ -64,5 +67,6 @@ module.exports = {
       "react/destructuring-assignment": 0,
       "react/no-access-state-in-setstate": 0,
       "react/react-in-jsx-scope": 0,
+      "react/jsx-wrap-multilines": 0,
   }
 }

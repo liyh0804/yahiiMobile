@@ -11,6 +11,10 @@ PODS:
     - React
   - react-native-camera/RN (1.1.5):
     - React
+  - react-native-orientation (3.1.3):
+    - React
+  - react-native-video (3.1.0):
+    - React
   - React/Core (0.56.0):
     - yoga (= 0.56.0.React)
   - React/fishhook (0.56.0)
@@ -46,6 +50,8 @@ PODS:
 DEPENDENCIES:
   - BVLinearGradient (from `../node_modules/react-native-linear-gradient`)
   - react-native-camera (from `../node_modules/react-native-camera`)
+  - react-native-orientation (from `../node_modules/react-native-orientation`)
+  - react-native-video (from `../node_modules/react-native-video`)
   - React/Core (from `../node_modules/react-native`)
   - React/RCTActionSheet (from `../node_modules/react-native`)
   - React/RCTAnimation (from `../node_modules/react-native`)
@@ -67,6 +73,10 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native"
   react-native-camera:
     :path: "../node_modules/react-native-camera"
+  react-native-orientation:
+    :path: "../node_modules/react-native-orientation"
+  react-native-video:
+    :path: "../node_modules/react-native-video"
   RNVectorIcons:
     :path: "../node_modules/react-native-vector-icons"
   yoga:
@@ -76,9 +86,11 @@ SPEC CHECKSUMS:
   BVLinearGradient: 4b3f3bdf1ac1a52a5ef5e65c9585d793a7c3f825
   React: 1fe0eb13d90b625d94c3b117c274dcfd2e760e11
   react-native-camera: 68ad5143d2d0636236d46c7de8d2a6455ca52a36
+  react-native-orientation: 3d9a0a8273d18260f7528414093a6a36491382b6
+  react-native-video: 6db316323366025251a815c49ca0e2edabe30a2a
   RNVectorIcons: c0dbfbf6068fefa240c37b0f71bd03b45dddac44
   yoga: b1ce48b6cf950b98deae82838f5173ea7cf89e85
 
-PODFILE CHECKSUM: 6ea29a705f670e03908d9411276f777af72459fb
+PODFILE CHECKSUM: 5f6322a59220c6bed51abb1667619adb4c89ced0
 
 COCOAPODS: 1.5.3

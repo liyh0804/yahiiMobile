@@ -9,12 +9,17 @@
   "tousu": 59022,
   "qita": 58903,
   "dingdan": 58907,
+  "tuichuquanping": 59293,
   "plus": 58912,
   "right": 58913,
   "qizhi": 58915,
   "user-circle": 59044,
   "password-circle": 59047,
   "home": 59054,
+  "videopaused": 58930,
+  "quanping": 58931,
+  "videorepeat": 58934,
+  "bofang": 58937,
   "chat": 59580,
   "eye": 59069,
   "down": 58942,
@@ -27,6 +32,9 @@
   "toright": 58961,
   "totop": 58963,
   "video": 60247,
+  "videoicon": 59240,
+  "videoplay": 59252,
   "eyeClosed": 59070,
-  "x": 120
+  "x": 120,
+  "xuanzhuanshouji": 59513
 }
