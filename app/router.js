@@ -6,6 +6,7 @@ import VideoPage from './pages/videos';
 import PlanPage from './pages/plans';
 import GrownPage from './pages/grown';
 import ImagesPage from './pages/images';
+import VideoPlayer from './pages/video-player';
 
 const BottomTabNav = createBottomTabNavigator({
   Home: {
@@ -66,6 +67,10 @@ const RootStack = createStackNavigator({
     navigationOptions: {
       header: null,
     },
+  },
+  VideoPlayer: {
+    screen: VideoPlayer,
+    path: '/video-player',
   },
 }, {
   navigationOptions: ({ navigation }) => ({
